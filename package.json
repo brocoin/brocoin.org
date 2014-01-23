@@ -1,0 +1,10 @@
+{
+  "name": "brocoin.org",
+  "description": "Brocoin Foundation Website",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "express": "3.x",
+    "ejs-locals": "~1.0.2"
+  }
+}

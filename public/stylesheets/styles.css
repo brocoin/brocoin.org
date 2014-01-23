@@ -1,0 +1,154 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800);
+
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: #000;
+  font-family: 'Open Sans', 'Helvetica Neue', sans-serf;
+  -webkit-font-smoothing: antialiased;
+  color: #fff;
+}
+
+a:link, a:active, a:visited {
+  color: #edc300;
+  text-decoration: none;
+}
+
+li {
+  list-style-type: square;
+  color: #444;
+}
+
+section {
+}
+
+#blackout,#anibg {
+  top: 0;
+  left: 0;
+  display: block;
+  position: fixed;
+  height: 100%;
+  width: 100%;
+}
+
+#blackout {
+  background-color: rgba(0,0,0,0.8);
+  z-index: -1;
+}
+
+#anibg {
+  z-index: -1;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.container {
+  text-align: center;
+}
+
+h1 b, h2 b, h3 b, h4 b {
+  color: #fff;
+}
+
+h1,h2,h3,h4 {
+  font-family: "jaf-facitweb";
+  color: rgba(255,255,255,0.5);
+  margin: 0px;
+  font-weight: normal;
+}
+
+h2 {
+  color: #fff;
+  margin-bottom: 40px;
+}
+
+h1 {
+  margin-top: 60px;
+  font-size: 45pt;
+  margin-bottom: 10px;
+}
+
+#coin {
+  z-index: 200;
+  margin-left: auto;
+  margin-right: auto;
+  width: 352px;
+  height: 352px;
+  -webkit-animation: rotation 10s infinite linear;
+}
+
+@-webkit-keyframes rotation {
+    from {-webkit-transform: rotateY(0deg);}
+    to   {-webkit-transform: rotateY(359deg);}
+}
+
+section {
+  z-index: 101;
+}
+
+footer a:link, footer a:active, footer a:visited {
+  color: #fff;
+  text-decoration: none;
+  -o-transition:.2s;
+  -ms-transition:.2s;
+  -moz-transition:.2s;
+  -webkit-transition:.2s;
+  transition:.2s;
+}
+
+footer a:hover {
+  /* text-decoration: underline; */
+  color: #cf00d6;
+}
+
+footer ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+footer ul li {
+  margin: 0px;
+  padding: 0px;
+  list-style-type: none;
+}
+
+footer.minor, footer.minor a:link, footer.minor a:visited, footer.minor a:active {
+  color: rgba(255,255,255,0.2);
+}
+
+footer.minor ul li i {
+  margin-right: 5px;
+}
+
+footer.minor ul li {
+  display: inline;
+  margin-left: 18px;
+}
+
+footer.major ul li span {
+  color: #525252;
+  display: block;
+  margin-bottom: 8px;
+  font-size: 0.6em;
+}
+
+footer.minor {
+  right: 0 !important;
+  float: right;
+  font-size: 0.7em;
+  text-align: right;
+}
+
+footer.major { left: 0; }
+
+footer {
+  width: auto;
+  display: inline;
+  font-size: 1.8em;
+  padding: 1.0em;
+  position: absolute;
+  bottom: 0;
+  z-index: 100;
+  color: #fff;
+}
